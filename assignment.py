@@ -1,3 +1,5 @@
+home expenses
+
 rent = 1200
 groceries = 300
 t_fare = 150
@@ -6,13 +8,13 @@ misselenious = 50
 M = (rent+groceries+t_fare+entertainment+misselenious)
 #M representinmg total monthly expense
 print(M)
-
 d = M/30
 #d is daily expenses
-
 print(d)
 
+
 #converting form degree to celcius
+
 temperature_in_celcius = input("Enter temperature degree in celcius")
 #to get farenhit temperature
 temperature_in_farenhit = (float(temperature_in_celcius)*9/5)+32
@@ -21,19 +23,20 @@ print(float(temperature_in_farenhit))
 
 
 #tell me the year you were born and ill give you your age
+
 year_given = input("enter the year you were born")
 your_age = 2024-(float(year_given))
-
-
 print(float(your_age))
 
+
+
+#age calculator
 
 first_number = input("put first number")
 second_number = input("put second number")
 third_number = input("put third number")
 fourth_number = input("put fourth number")
 fifth_number = input("put fifth number")
-
 numerator = first_number + second_number + third_number +fourth_number + fifth_number
 mean = (float(numerator)/5)
 print(float(mean) )
