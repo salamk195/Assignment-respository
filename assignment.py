@@ -40,3 +40,57 @@ fifth_number = input("put fifth number")
 numerator = first_number + second_number + third_number +fourth_number + fifth_number
 mean = (float(numerator)/5)
 print(float(mean) )
+
+
+
+
+
+
+
+
+
+
+today
+
+
+
+
+
+#conerting pounds to dollar
+#formula = amount in pounds  * 1.26
+
+amount_given = int(input('write amount in pounds'))
+price_in_dollar = (amount_given) * 1.26
+print(price_in_dollar)
+
+
+
+
+#circumfrence of a circle
+#foormula is C = 2pir
+
+pi = 22/7
+
+radius = int(input('radius'))
+circumfrence = 2 * (pi) *(radius)
+print(circumfrence)
+
+
+#reverse inputed name
+name_to_reverse = input('write your name')
+reverse = name_to_reverse[::-1]
+print(reverse)
+
+
+#accpet input from user and print out the first and last name
+given_name = input("Write your name")
+first_letter = (given_name[0])
+last_letter = (given_name[-1])
+print("The first letter of your beautiful name is " + first_letter + " and the last letter is " + last_letter)
+print(first_letter + last_letter)
+
+
+#calculate the circumfrence of a circle
+
+
+
