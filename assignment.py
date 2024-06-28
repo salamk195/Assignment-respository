@@ -50,7 +50,7 @@ print(float(mean) )
 
 
 
-today
+#fiday 28th today
 
 
 
@@ -93,4 +93,21 @@ print(first_letter + last_letter)
 #calculate the circumfrence of a circle
 
 
+
+
+#formula for compound interest 
+#    A = P(1+r/100)t
+
+#where A = final amount P = initaial principal balance r = interest n = number of times interest applied per time period t = number of times elapsed
+
+
+principal = int(input("principal_amount"))
+inputed_rate = int(input("interest rate"))
+rate = float(inputed_rate/100)
+time = float(input("time"))
+
+amount = principal * (1 + rate)**time
+
+
+print(amount)
 
