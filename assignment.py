@@ -111,3 +111,47 @@ amount = principal * (1 + rate)**time
 
 print(amount)
 
+#Folade is a student that offers 10 courses, at the end of the semster are scores are below
+#input scores  wrtie a program to calculate her standing in the class 70 above A,60-69 B, 50-59 C, 40-49 D, 30-39 E, 29-0 F
+
+score_for_maths = int(input('Please input the score for maths'))
+score_for_english = int(input('Please input the score for english'))
+score_for_chemistry = int(input('Please input the score for chemistry'))
+score_for_biology = int(input('Please input the score for biology'))
+score_for_agric = int(input('Please input the score for agric'))
+score_for_physics = int(input('Please input the score for physics'))
+score_for_economics = int(input('Please input the score for economics'))
+score_for_civic = int(input('Please input the score for civic'))
+score_for_crk = int(input('Please input the score for crk'))
+score_for_history = int(input('Please input the score for history'))
+score_for_bookkeeping = int(input('Please input the score for bookkeeping'))
+
+subjects_in_list = [score_for_agric, score_for_biology, score_for_bookkeeping, score_for_chemistry, score_for_civic, score_for_crk, score_for_economics, score_for_english, score_for_history, score_for_maths, score_for_physics')
+
+print(list(filter(lamda x: x>100, subjects_in_list)))input the score for bookkeeping'))
+
+subjects_in_list = [score_for_agric, score_for_biology, score_for_bookkeeping, score_for_chemistry, score_for_civic, score_for_crk, score_for_economics, score_for_english, score_for_history, score_for_maths, score_for_physics')
+
+print(list(filter(lamda x: x>100, subjects_in_list)))input the score for bookkeeping'))
+
+subjects_in_list = [score_for_agric, score_for_biology, score_for_bookkeeping, score_for_chemistry, score_for_civic, score_for_crk, score_for_economics, score_for_english, score_for_history, score_for_maths, score_for_physics')
+
+print(list(filter(lamda x: x>100, subjects_in_list)))
+
+each_scores = (score_for_agric + score_for_biology + score_for_bookkeeping + score_for_chemistry + score_for_civic + score_for_crk + score_for_economics + score_for_english + score_for_history + score_for_maths + score_for_physics)/100
+
+print(each_scores)
+
+if each_scores >= 70:
+	print(' You are among the best of the best you have A')
+
+elif each_scores > 60 <69:
+	print ('You have done well, you have B')
+elif each_scores >50 <69:
+	print('Do better next time you have C')
+elif each_scores >40 <49:
+	print('Your performance was poor, you have D')
+elif each_scores >30 <39:
+	print('very bad form you, you have E')
+elif each_scores >0 <20:
+	print('worst performance, you have F and you are repeating this class')
