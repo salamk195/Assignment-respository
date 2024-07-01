@@ -40,3 +40,66 @@ else:
 
 
 
+user_inputed_value = int(input('Welcome to Jendol online Superstores, PLease select Card type 1. Regular, 2. Silver, 3. Gold, 4. Platinum: '))
+S = 'Silver' 
+G = 'Gold'
+P = 'Platinum'
+R = 'Regular'
+user_value = "R"
+if user_inputed_value ==1:
+    user_value = "R"
+elif user_inputed_value ==2:
+    user_value = "S"
+elif user_inputed_value ==3:
+    user_value = "G"
+elif user_inputed_value == 4:
+    user_value = "P"
+else:
+    print('number not recognized')
+
+total_cost = int(input("Enter the total amount of goods you bought: "))
+if user_value == "R":
+    if total_cost > 1000 <2000:
+     print('You have a dicount of ', total_cost * 5 / 100 )
+     print('You are now paying ', total_cost - (total_cost * 5 / 100))
+    elif total_cost >2000:
+     print('You have a dicount of ', total_cost* 10 / 100 )
+     print('You are now paying ', total_cost - (total_cost* 10 / 100))
+    else:
+        print('You have no discount you are paying ',total_cost )
+elif user_value == "S":
+    if total_cost >1000 <2000:
+     print('You have a dicount of ', total_cost * 10 / 100)
+     print('You are now paying ',total_cost - (total_cost * 10 / 100) )
+    elif total_cost >2000:
+     print('You have a dicount of ',total_cost * 15 / 100)
+     print('You are now paying ', total_cost - (total_cost* 15 / 100))  
+    else:
+         print('You have no discount you are paying ',total_cost ) 
+elif user_value == "G":
+    if total_cost >1000 <2000:
+     print('You have a dicount of ', total_cost * 15 / 100 )
+     print('You are now paying ',total_cost - (total_cost * 15 / 100))
+    elif total_cost >2000:
+     print('You have a dicount of ',total_cost * 20 / 100 )
+     print('You are now paying', total_cost - (total_cost * 20 / 100 ))
+    else:
+        print('You have no discount you are paying ',total_cost )
+    
+elif user_value == "P":
+    if total_cost >1000 <2000:
+     print('You have a dicount of ',total_cost - (total_cost * 20 / 100))
+     print('You are now paying ',total_cost - (total_cost * 20 / 100))
+    elif total_cost >2000:
+     print('You have a dicount of ', total_cost * 25 / 100)
+     print('You are now paying ', total_cost - (total_cost * 25 / 100))
+    else: 
+        print('You have no discount you are paying ',total_cost )
+
+else:
+    print('You have no discount you are paying ',total_cost )
+
+
+
+
+
