@@ -1,0 +1,12 @@
+user_inputed_value = int(input('Welcome to Jendol online Superstores, PLease select Card type 1. Regular, 2. Silver, 3. Gold, 4. Platinum '))
+S = 'Silver' 
+G = 'Gold'
+P = 'Platinum'
+R = 'Regular'
+user_card = R
+if user_inputed_value ==2:
+    user_card = S
+elif user_inputed_value ==3:
+    user_card = G
+else:
+    user_card = P
